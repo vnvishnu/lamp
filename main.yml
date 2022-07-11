@@ -7,6 +7,7 @@
     - secret-vars.yml
   tasks:
     -name: " LAMP - Apache and PHP installation "
+    -name: " httpd.conf created from template "
     -name: " Restart Apache "
 
 
