@@ -8,6 +8,7 @@
   tasks:
     -name: " LAMP - Apache and PHP installation "
     -name: " httpd.conf created from template "
+    -name: " Apache Vesrion 2.2 applied"
     -name: " Restart Apache "
 
 
