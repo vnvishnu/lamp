@@ -1,0 +1,11 @@
+---
+- name: "LAMP Server" 
+  become: true
+  hosts: all
+  vars_file:
+    - vars.yml
+    - secret-vars.yml
+  tasks:
+    -name: " LAMP - Apache and PHP installation "
+
+
